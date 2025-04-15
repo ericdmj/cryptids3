@@ -1,0 +1,74 @@
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popup {
+    background-image: linear-gradient(25deg, #473643ea, #81627aea, #81627aea, #473643ea);
+    width: 75%;
+    padding: 40px 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 15px;
+    font-family: 'Playfair Display', 'Georgia', 'Times', serif;
+    display: none;
+    z-index: 10000000;
+    color: #ffffff;
+}
+
+.popup h1 {
+    text-shadow: 1.5px 1.5px #4D2042;
+    text-align: center;
+}
+
+.popup h2 {
+    text-align: center;
+}
+
+#letsGo {
+    font-family: 'Playfair Display', 'Georgia', 'Times', serif;
+    color: #ffffff;
+}
+
+#close {
+    color: #ffffff;
+}
+
+.popup button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navigationarea {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.popup p {
+    font-size: 14px;
+    margin: 16px 0;
+}
+
+#navigation {
+    font-size: 14px;
+    margin: 16px 0;
+}
+
+#navigation img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#navigation td {
+    vertical-align: middle;
+}
